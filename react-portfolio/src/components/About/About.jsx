@@ -17,22 +17,36 @@ const About = () => {
           <li className={styles.aboutItem}>
             <img src={getImageUrl("about/cursorIcon.png")} alt="cursor icon" />
             <div className={styles.aboutItemText}>
-              <h3>First Heading</h3>
-              <p>There is going to be my first experience section</p>
+              <h3>Food Supervisor</h3>
+              <p>
+                I have almost a couple of years of experience as Food service
+                supervisor. As a supervisor, I help my employees in make right
+                sandwich everytime. Durig my supervision i have increased store
+                sales by 20% with interpersonal skills and considering food
+                standards
+              </p>
             </div>
           </li>
           <li className={styles.aboutItem}>
             <img src={getImageUrl("about/serverIcon.png")} alt="server icon" />
             <div className={styles.aboutItemText}>
-              <h3>Second Heading</h3>
-              <p>There is going to be my Second experience section</p>
+              <h3>Expierenced in Programming</h3>
+              <p>
+                I alwways love programming. During my learnig curve I gained
+                knowledge of various programming languages from c++ - java -
+                html - css - javascript and now react.
+              </p>
             </div>
           </li>
           <li className={styles.aboutItem}>
             <img src={getImageUrl("about/uiIcon.png")} alt="UI icon" />
             <div className={styles.aboutItemText}>
-              <h3>Third Heading</h3>
-              <p>There is going to be my third experience section</p>
+              <h3>Customer Service Representative</h3>
+              <p>
+                I have gained experience as CSR from my various jobs like from
+                cashier job at Becker, Baker at Tim hortons and mostly from
+                Subway where I worked to uplift store reputation.
+              </p>
             </div>
           </li>
         </ul>
