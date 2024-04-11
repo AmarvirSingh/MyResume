@@ -4,6 +4,7 @@ import Contact from "./components/Contact/Contact";
 import Experience from "./components/Experience/Experience";
 import Hero from "./components/Hero/Hero";
 import Navbar from "./components/Navbar/Navbar";
+import { Analytics } from "@vercel/analytics/react";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <About />
       <Experience />
       <Contact />
+      <Analytics />
     </div>
   );
 }
