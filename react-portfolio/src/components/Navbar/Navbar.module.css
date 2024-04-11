@@ -19,8 +19,12 @@
 .menu {
   display: flex;
 }
+.menubtn {
+  display: none;
+}
 .menuItems {
   display: flex;
+  flex-direction: row;
   gap: 47px;
   list-style: none;
 }

@@ -1,0 +1,56 @@
+@import "../../var.css";
+
+.container {
+  background-color: var(--color-secondary);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  gap: 12px;
+  align-items: center;
+  padding: 58px 10%;
+  color: var(--color-text);
+  width: 100vw;
+  margin-top: 120px;
+}
+.leftSide h2 {
+  font-family: var(--font-robot);
+  font-size: 35px;
+  font-weight: 700;
+  letter-spacing: 1.75px;
+  text-transform: uppercase;
+}
+
+.leftSide p {
+  font-size: 25px;
+  font-family: var(--font-robot);
+}
+
+ul {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  list-style: none;
+  gap: 26px;
+}
+li {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+li a {
+  text-decoration: none;
+  color: var(--color-text);
+  font-size: 1.2rem;
+  margin-left: 10px;
+  cursor: pointer;
+}
+.imgPhone {
+  background-color: white;
+  border-radius: 5px;
+}
+@media screen and (max-width: 830px) {
+  .container {
+    flex-direction: column;
+    gap: 30px;
+  }
+}
