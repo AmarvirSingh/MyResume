@@ -1,0 +1,23 @@
+[
+  {
+    "title": "Food Service Supervisor",
+    "imgsrc": "company/subway.png",
+    "oraganization": "Subway",
+    "startDate": "May 2022",
+    "endDate": "January 2024"
+  },
+  {
+    "title": "Make Line Cook",
+    "imgsrc": "company/subway.png",
+    "oraganization": "Pizza-Pizza",
+    "startDate": "Feb 2023",
+    "endDate": "January 2024"
+  },
+  {
+    "title": "Baker",
+    "imgsrc": "company/timHortons.png",
+    "oraganization": "Tim-Hortons",
+    "startDate": "Feb 2021",
+    "endDate": "December 2021"
+  }
+]
